@@ -1,0 +1,13 @@
+# ElectronShifter project configuration
+project_type = "javascript"
+model_profile = "balanced"
+pinned_context = ["README.md", "package.json"]
+entry_points = ["src", "main.js"]
+exclude_paths = [
+    "node_modules/**",
+]
+
+[preprocess]
+exclude_paths = [
+    "node_modules/**",
+]
